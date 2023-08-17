@@ -1,0 +1,513 @@
+@import url("./fonts.css");
+@import url("./cdn.css");
+@import url("./header.css");
+@import url("./axit.css");
+@import url("./social.css ");
+@import url("./tabs.css ");
+@import url("./awesome.css");
+@import url("./pricing.css");
+@import url("./customers.css");
+@import url("./axure.css");
+@import url("./contact.css");
+@import url("./footer.css");
+
+:root {
+  --normal-400-14-normal-open-sans: normal 400 14px normal, "Open Sans";
+  --normal-600-15-normal-open-sans: normal 600 15px normal, "Open Sans";
+  --normal-700-20-normal-open-sans: normal 700 20px normal, "Open Sans";
+  --normal-400-36-normal-raleway: normal 400 36px normal, "Raleway";
+  --color-ec7979: #ec7979;
+  --color-e72424: #e72424;
+  --color-fff: #fff;
+  --color-e2e2e2: #e2e2e2;
+  --color-bdbdbd: #bdbdbd;
+  --color-86878b: #86878b;
+  --color-333: #333;
+  --color-212121: #212121;
+  --color-000: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-desc {
+  font: var(--normal-400-14-normal-open-sans);
+  text-align: center;
+  color: var(--color-86878b);
+}
+
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.section-title {
+  font: var(--normal-400-36-normal-raleway);
+  margin: 0 auto 34px;
+  max-width: 668px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.awesome-animation {
+  color: var(--color-86878b);
+  transition: 0.5s;
+}
+
+.awesome-animation:hover {
+  transform: scale(1.3) rotate(360deg);
+  transition: 0.5s;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #00aced;
+}
+
+.fa-google-plus-g:hover {
+  color: #dd4b39;
+}
+
+.fa-pinterest:hover {
+  color: #cb2027;
+}
+
+.fa-instagram:hover {
+  color: #bc2a8d;
+}
+
+.fa-stumbleupon:hover {
+  color: #eb4823;
+}
+
+.fa-rss:hover {
+  color: #f26522;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /***AXIT section***/
+  .axit {
+    padding: 60px 0;
+  }
+
+  .axit-left {
+    max-width: 500px;
+  }
+
+  .axit-title {
+    font:
+      normal 400 30px normal,
+      "Raleway";
+  }
+
+  /***SOCIAL section***/
+  .social {
+    padding: 12px 0 12px;
+  }
+
+  .social-media__content {
+    max-width: 300px;
+  }
+
+  .social-navigation {
+    max-width: 600px;
+  }
+
+  .social-navigation__item {
+    font-size: 35px;
+  }
+
+  /***TABS section***/
+  .tabs {
+    padding: 60px 0;
+  }
+
+  .tabs-content {
+    max-width: 400px;
+  }
+
+  /***AWESOME section***/
+  .awesome {
+    padding: 60px 0;
+  }
+
+  .awesome-card {
+    width: 250px;
+  }
+
+  .awesome__card-desc {
+    margin: auto;
+    width: 250px;
+  }
+
+  /***PRICING section***/
+  .pricing {
+    padding: 60px 0;
+  }
+
+  .pricing-card {
+    width: 250px;
+  }
+
+  .pricing-card__title {
+    font-size: 18px;
+  }
+
+  .pricing-card__cost {
+    font-size: 30px;
+  }
+
+  .pricing-card__condition {
+    font-size: 13px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  /***CUSTOMERS section***/
+  .customers {
+    padding: 60px 0;
+  }
+
+  .customer-card {
+    width: 250px;
+  }
+
+  .customer-card__feedback::after {
+    top: 58%;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid var(--color-e2e2e2);
+  }
+
+  @media (max-width: 992px) {
+    .container {
+      max-width: 920px;
+    }
+
+    /***AXIT section***/
+    .axit {
+      padding: 40px 0;
+    }
+
+    .axit-wrap {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+
+    .axit-left {
+      display: flex;
+      flex-direction: column;
+      width: 800px;
+    }
+
+    .axit__logo {
+      display: none;
+    }
+
+    .axit-title {
+      text-align: center;
+    }
+
+    .axit__desc {
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+
+    .axit__download-btn {
+      margin: 0 auto 40px;
+    }
+
+    .axit-right {
+      width: 500px;
+    }
+
+    .axit__form-title {
+      font-size: 25px;
+    }
+
+    .form-content {
+      max-width: 352px;
+    }
+
+    .axit-label {
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+
+    .axit-input {
+      font-size: 17px;
+    }
+
+    .axit__get-started-btn {
+      font-size: 20px;
+    }
+
+    /***SOCIAL section***/
+    .social-navigation {
+      max-width: 500px;
+    }
+
+    .social-navigation__item {
+      font-size: 30px;
+    }
+
+    /***TABS section***/
+    .tabs {
+      padding: 40px 0;
+    }
+
+    .tabs-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tabs-navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 800px;
+      margin: 0 auto 40px;
+    }
+
+    .tabs-navigation__item {
+      padding: 25px 80px;
+      margin-bottom: 0;
+    }
+
+    .tab-one-content {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .tabs-content__title {
+      margin-bottom: 15px;
+    }
+
+    .tabs-content__desc {
+      margin-bottom: 15px;
+    }
+
+    /***AWESOME section***/
+    .awesome {
+      padding: 40px 0;
+    }
+
+    /***PRICING section***/
+    .pricing {
+      padding: 40px 0;
+    }
+
+    /***CUSTOMERS section***/
+    .customers {
+      padding: 40px 0;
+    }
+
+    /***AXURE section***/
+    .axure {
+      padding: 40px 0;
+    }
+
+    /***CONTACT section***/
+    .contact {
+      padding: 40px 0;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      max-width: 570px;
+    }
+
+    /***SOCIAL section***/
+    .social-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 540px;
+    }
+
+    .social-media__title {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .social-media__content {
+      max-width: 540px;
+      margin-bottom: 20px;
+    }
+
+    .social-media-des {
+      text-align: center;
+    }
+
+    /***TABS section***/
+    .tabs-navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 480px;
+      margin: 0 auto 30px;
+    }
+
+    .tabs-navigation__item {
+      padding: 15px 40px;
+    }
+
+    .tabs__picture {
+      display: none;
+    }
+
+    /***AWESOME section***/
+    .awesome {
+      padding: 30px 0;
+    }
+
+    .awesome-desc {
+      margin-bottom: 58px;
+    }
+
+    .awesome-card {
+      width: 500px;
+      margin: 0 auto 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .awesome-avatar{
+      width: 85px;
+      height: 85px;
+    }
+
+    .awesome-avatar i {
+      font-size: 30px;
+    }
+
+    .awesome__card-desc{
+      width: 500px;
+    }
+
+    .awesome-card:last-child{
+      margin-bottom: 0;
+    }
+
+    /***PRICING section***/
+    .pricing{
+      padding: 40px 0;
+    }
+
+    .pricing-desc{
+      margin-bottom: 42px;
+    }
+
+    .pricing-card{
+      width: 500px;
+      margin: 0 auto 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing-card:last-child{
+      margin-bottom: 0;
+    }
+
+    .pricing-card__title{
+      font-size: 25px;
+    }
+
+    .pricing-card__cost{
+      font-size: 45px;
+    }
+
+    .pricing-card__condition{
+      font-size: 20px;
+    }
+
+    .pricing-card__item{
+      font-size: 16px;
+    }
+
+    /***CUSTOMERS section***/
+    .customers {
+      padding: 30px 0;
+    }
+
+    .customers-desc{
+      margin-bottom: 47px;
+    }
+
+    .customer-card {
+      width: 350px;
+      margin: 0 15px 50px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .customer-card:last-child{
+      margin-bottom: 0;
+    }
+
+    .customer-card__feedback::after{
+      top: 49%;
+    }
+
+    /***CONTACT section***/
+    .customers{
+      padding: 30px 0;
+    }
+
+    .customers-desc{
+      margin-bottom: 47px;
+    }
+
+    .contact-wrap{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content-left,
+    .content-right {
+      width: 85%;
+      margin: auto;
+    }
+
+    .contact-left:last-child {
+      margin-bottom:32px;
+    }
+  }
+}

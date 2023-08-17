@@ -1,0 +1,101 @@
+.tabs {
+  padding: 125px 0;
+  background-color: var(--color-fff);
+}
+
+.tabs-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0 -15px;
+}
+
+.tabs-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.tabs-navigation__item {
+  font:
+    normal 700 15px normal,
+    "Open Sans";
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-fff);
+  padding: 45px 35px;
+  background: var(--color-333);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tabs-navigation__item:last-child {
+  margin-bottom: 0;
+}
+
+.active-tab {
+  background: var(--color-ec7979);
+}
+
+.tabs-content__title {
+  font: var(--normal-700-20-normal-open-sans);
+  color: var(--color-000);
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}
+
+.tab-one-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-two-content {
+  display: none;
+}
+
+.tab-three-content {
+  display: none;
+}
+
+.tabs-content__desc {
+  font: var(--normal-400-14-normal-open-sans);
+  text-transform: uppercase;
+  color: var(--color-86878b);
+}
+
+.tabs-content__desc-first-margin {
+  margin-bottom: 26px;
+}
+
+.tabs-content__desc-second-margin {
+  margin-bottom: 80px;
+}
+
+.tabs-content {
+  width: 572px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.tabs__download-btn {
+  font: var(--normal-600-15-normal-open-sans);
+  text-align: center;
+  padding: 11px 0;
+  width: 135px;
+  border: 1px solid var(--color-fff);
+  color: var(--color-fff);
+  background: var(--color-ec7979);
+}
+
+.tabs__picture {
+  margin: 0 15px;
+}
+
+.tabs-picture img {
+  width: 320px;
+  height: 253px;
+  object-fit: cover;
+}
